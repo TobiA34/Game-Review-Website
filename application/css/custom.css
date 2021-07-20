@@ -1,0 +1,204 @@
+
+body{
+	background-color: #EDDEA4;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+
+h2{
+	font-family: "Segoe UI";
+	font-style: italic;
+	text-align: center;
+}
+
+.navbar{
+	background-color: #ffddaa;
+}
+.logo{
+	margin-left: 38%;
+	margin-top: 10px;
+	height: 150px;
+	width: 150px;
+	padding: 20px;
+	border: 10px outset yellowgreen;
+}
+
+.typography{
+	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+	background-color: #4e4a4a;
+	color: white;
+}
+
+.heading{
+	text-align: center;
+	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+	font-weight: bold;
+}
+
+.button{
+	border: #1f1d1d;
+	background-color: #1f1d1d;
+	color: white;
+	border-radius: 0.5em;
+	width: 500px;
+	height: 500px;
+	text-decoration: none;
+}
+
+#title{
+	text-align: center;
+	color: red;
+}
+
+#Web-title{
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+.nav{
+	border-width:1px 0;
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	background-color: #EDDEA4;
+}
+.nav li{
+	display:inline;
+}
+.nav a{
+	display:inline-block;
+	padding:10px;
+	font-size: 30px;
+}
+
+#HomePageContainer{
+	width: 100%;
+	background-color: white;
+}
+#game_Container1{
+	width:60%;
+}
+
+/* ABOUT PAGE STYLES*/
+
+#about-website {
+	width: 70%;
+}
+#about-content-container {
+	background: black;
+	overflow: hidden;
+	width: 100%;
+	padding-left: 300px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#about-content-container .courseworkContent {
+	float: left;
+	border-radius: 10px;
+	margin: 0 2.5% 0 2.5%;
+	margin-bottom: 10px;
+}
+#review-website-introduction{
+	background:goldenrod;
+	width:80%;
+	margin: 30px auto 0 auto;
+	border-radius: 10px;
+}
+#review-website-introduction p{
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	color: white;
+}
+#review-website-introduction h2{
+	color: white;
+}
+#features{
+	background:goldenrod;
+	width:80%;
+	margin: 40px auto 0 auto;
+	border-radius: 10px;
+}
+#features p{
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	color: white;
+}
+#features h2{
+	color: white;
+}
+
+.textfield{
+	height: 40px;
+	/*margin-bottom: 20px;*/
+}
+
+/*SIGN IN PAGE STLYES*/
+#login_form {
+	font-size: 25px;
+	margin-left: 20%;
+}
+#login_container {
+	background-color: #1f2833;
+	height: 900px;
+}
+
+/*SIGN UP PAGE STLYES*/
+
+#register_form {
+	padding: 20px;
+	font-size: 25px;
+	margin-left: 20%;
+
+}
+#register_container {
+	background-color: #1f2833;
+	height: 900px;
+}
+form {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+input {
+	font-size:20px;
+	padding: 20px;
+}
+.border{
+	width: 900px;
+	padding-left: 35px;
+	border-radius: 20px;
+
+	margin: 5px auto;
+	background-color: lightblue;
+	margin-left: 20px;
+}
+.textfield {
+	width: 800px;
+	padding-top: 0px;
+}
+.button {
+	padding: 10px;
+}
+
+.text_danger{
+	color: red;
+}
+
+#footer {
+	background-color:#EDDEA4;
+	text-align: center;
+	overflow-x: hidden;
+	font-size: 25px;
+	padding-bottom: 5px;
+	width: 100%;
+}
+
+
+

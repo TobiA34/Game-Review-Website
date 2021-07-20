@@ -1,0 +1,53 @@
+6G5Z2107 - 2CWK50 - 2019/20
+<Tobi Adegoroye>
+<18011328>
+
+
+SETUP:
+...
+
+-start_up XAMPP
+-Run sql script to create database
+-Then run http://localhost:8080/GameReviewV2/index.php
+
+
+
+
+
+DOCUMENTATION:
+...
+/**REGISTER**/
+- run http://localhost:8080/GameReviewV2/index.php
+- Then click on the register nav link to go to the register page
+- Enter the details to create a new account in the input fields then click the button which will go straight to the login screen.
+
+/**LOGIN**/
+- Enter the username and password and click login
+- username: lee34
+-password: 123
+
+/**REVIEWS**/
+- click on comment button which will take you to the comment page and you can add a comment for a game.
+
+/**CHAT**/
+-To Run chat click on the terminal
+- run node ChatServer.js
+- then go to the review page And click on the chat room button to enter a chat.
+
+/**Comments**/
+- Login in using the password and username
+- go to review page
+- click on see full article and scroll to the bottom to post a comment on a game
+
+
+
+
+
+
+
+
+
+
+
+
+
